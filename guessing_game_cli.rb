@@ -14,3 +14,7 @@ end
 def get_number
   return rand(5) + 1
 end
+
+def incorrect_guess
+  
+end
