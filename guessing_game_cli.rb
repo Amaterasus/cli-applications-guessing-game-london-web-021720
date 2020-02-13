@@ -18,7 +18,7 @@ def get_user_input
   if input == "exit"
     return input
   end
-  while input < 0 && input > 6 do
+  while input.to_i < 0 && input.to_i > 6 do
     if input == "exit"
       return input
     end
