@@ -8,7 +8,7 @@ def run_guessing_game
   elsif human_guess == computer_guess
     correct_guess
   else
-    incorrect_guess
+    incorrect_guess(computer_guess)
   end
   
 end
