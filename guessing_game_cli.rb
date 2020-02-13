@@ -15,7 +15,7 @@ end
 
 def get_user_input
   input = get_user_input.chomp
-  while input < 0 && > 6 do
+  while input < 0 && input > 6 do
     if input == "exit"
       return input
     end
