@@ -5,7 +5,7 @@ def run_guessing_game
   human_guess = get_user_input
   if human_guess == "exit"
     quit
-  elsif human_guess.to_i == computer_guess
+  elsif human_guess == computer_guess
     correct_guess
   else
     incorrect_guess(computer_guess)
@@ -25,7 +25,7 @@ def get_user_input
     prompt_user
     input = gets.chomp
   end
-  return input
+  return input.to_i
 end
 
 
