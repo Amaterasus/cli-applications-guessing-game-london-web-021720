@@ -15,6 +15,6 @@ def get_number
   return rand(5) + 1
 end
 
-def incorrect_guess
-  
+def incorrect_guess(computer_guess)
+  puts ""
 end
