@@ -1,10 +1,22 @@
 # Code your solution here!
 def run_gessing_game
+  computer_guess = get_number
+  prompt_user
+  human_guess = get_user_input
+  if 
   
 end
 
 def get_user_input
-  return gets.chomp
+  input = get_user_input.chomp
+  while input < 0 && > 6 do
+    if input == "exit"
+      return input
+    end
+    prompt_user
+    input = get_user_input.chomp
+  end
+  return input
 end
 
 def prompt_user
@@ -20,5 +32,5 @@ def incorrect_guess(computer_guess)
 end
 
 def correct_guess
-  puts ""
+  puts "You guessed the correct number!"
 end
