@@ -16,5 +16,9 @@ def get_number
 end
 
 def incorrect_guess(computer_guess)
-  puts ""
+  puts "Sorry! The computer guessed #{computer_guess}."
+end
+
+def correct_guess
+  
 end
