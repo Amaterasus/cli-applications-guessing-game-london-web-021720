@@ -20,5 +20,5 @@ def incorrect_guess(computer_guess)
 end
 
 def correct_guess
-  
+  puts ""
 end
