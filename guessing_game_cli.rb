@@ -14,13 +14,13 @@ def run_guessing_game
 end
 
 def get_user_input
-  input = get_user_input.chomp
+  input = gets.chomp
   while input < 0 && input > 6 do
     if input == "exit"
       return input
     end
     prompt_user
-    input = get_user_input.chomp
+    input = gets.chomp
   end
   return input
 end
