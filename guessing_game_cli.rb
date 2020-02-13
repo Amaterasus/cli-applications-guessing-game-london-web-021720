@@ -3,7 +3,8 @@ def run_gessing_game
   computer_guess = get_number
   prompt_user
   human_guess = get_user_input
-  if 
+  if human_guess == "exit"
+    puts "go"
   
 end
 
