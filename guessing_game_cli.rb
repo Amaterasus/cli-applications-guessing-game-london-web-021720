@@ -1,5 +1,5 @@
 # Code your solution here!
-def run_gessing_game
+def run_guessing_game
   computer_guess = get_number
   prompt_user
   human_guess = get_user_input
