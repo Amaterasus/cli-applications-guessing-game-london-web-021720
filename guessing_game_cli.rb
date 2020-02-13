@@ -15,6 +15,9 @@ end
 
 def get_user_input
   input = gets.chomp
+  if input == "exit"
+    return input
+  end
   while input < 0 && input > 6 do
     if input == "exit"
       return input
@@ -24,6 +27,7 @@ def get_user_input
   end
   return input
 end
+
 
 def prompt_user
   puts "Please pick a number between 1 - 6"
