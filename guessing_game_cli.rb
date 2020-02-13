@@ -4,7 +4,12 @@ def run_gessing_game
   prompt_user
   human_guess = get_user_input
   if human_guess == "exit"
-    puts "go"
+    quit
+  elsif human_guess == computer_guess
+    correct_guess
+  else
+    incorrect_guess
+  end
   
 end
 
@@ -37,5 +42,5 @@ def correct_guess
 end
 
 def quit
-  puts ""
+  puts "Goodbye!"
 end
