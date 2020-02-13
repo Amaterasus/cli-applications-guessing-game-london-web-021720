@@ -35,3 +35,7 @@ end
 def correct_guess
   puts "You guessed the correct number!"
 end
+
+def quit
+  puts ""
+end
